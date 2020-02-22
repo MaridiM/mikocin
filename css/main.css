@@ -1095,6 +1095,7 @@ a {
     .info .info-wraper .bg-img {
         width: 80px;
         height: 55px;
+        left: calc(50% - 40px);
     }
     .info .info-wraper .title h1 {
         font-size: 30px;
@@ -1119,7 +1120,7 @@ a {
         width: 80px;
         height: 55px;
         position: absolute;
-        left: calc(50% - 47.5px);
+        left: calc(50% - 40px);
         top: 75px;
     }
     .description .description-wraper h1 {
@@ -1191,6 +1192,7 @@ a {
     .how-use .bg-img {
         width: 80px;
         height: 55px;
+        left: calc(50% - 40px);
     }
     .how-use .how-use-wraper h1 {
         margin-top: 30px;
@@ -1472,11 +1474,18 @@ a {
     .main .main-wraper .content .form-block .header .info-price .price-old {
         margin-left: auto;
     }
-
+    .main .main-wraper .content .form-block .header .info-price .price-old .price span {
+        font-size: 28px;
+        line-height: 24px;
+    }
     .main .main-wraper .content .form-block .header .info-price .price-new {
         margin-right: auto;
     }
-
+    .main .main-wraper .content .form-block .header .info-price .price-new .price span {
+        font-size: 28px;
+        line-height: 24px;
+    }
+    
     .main .main-wraper .content .form-block .form {
         top: 160px;
         width: 220px;
