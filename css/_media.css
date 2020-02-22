@@ -1,0 +1,12 @@
+@import "./_fonts.css";
+
+@media screen and (min-width: 1200px) {
+    /* 
+    //  MAIN BLOCK
+    */
+    .main .main-wraper .content .description ul li .item {
+        font-size: 40px;
+    }
+}
+
+    
